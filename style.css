@@ -1,0 +1,266 @@
+/* navbar */
+.nav-0 {
+  background-color: #dbfff7;
+}
+
+.main-0 {
+  background-color: #dbfff7;
+}
+
+.btn-success {
+  background-color: #5cb85f;
+}
+
+.tittle {
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 17%;
+}
+
+.content {
+  font-size: 15px;
+  padding-right: 80px;
+}
+
+.gambar img {
+  width: 120%;
+  margin-left: 10px;
+  padding-top: 75px;
+}
+
+/*service */
+.service-0 {
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+.service-1 {
+  padding-left: 45px;
+  padding-top: 40px;
+}
+.service-1 h2 {
+  font-weight: bold;
+}
+
+.service-1 h3 {
+  font-size: 25px;
+}
+
+.service-1 p {
+  font-size: 15px;
+}
+
+/* Why us */
+.why-0 {
+  padding-top: 100px;
+}
+
+.tittle-0 h3 {
+  font-size: 24px;
+}
+
+.tittle-0 p {
+  font-size: 17px;
+  margin-bottom: 5%;
+}
+
+.why-1 p {
+  font-size: 15px;
+}
+
+/* testimonial */
+.item-0 {
+  width: 100%;
+  background-color: #dbfff7;
+}
+.card-left {
+  width: 50%;
+  height: 50%;
+  margin: 50px 20px;
+}
+
+.card-right {
+  font-size: 14px;
+  padding: 50px 20px;
+}
+
+.card-right i {
+  color: gold;
+  padding-bottom: 10px;
+}
+
+.Testimonial-tittle {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 3%;
+}
+
+.owl-carousel .card-body {
+  display: flex;
+}
+
+/* Text Biru */
+.text-content {
+  margin-top: 100px;
+  padding: 64px 64px;
+  border-radius: 15px;
+  background-color: blue;
+}
+
+.text-content h3 {
+  font-size: 36px;
+}
+
+.text-content p {
+  font-size: 15px;
+  padding: 16px 310px 52px 310px;
+}
+
+/* FAQ */
+.faq {
+  padding-top: 100px;
+}
+
+.faq-content .card {
+  margin-bottom: 10px;
+}
+
+.faq-tittle h1 {
+  font-size: 25px;
+}
+
+.faq-tittle p {
+  font-size: 15px;
+}
+
+/* footer */
+.footer {
+  margin-top: 100px;
+}
+
+.box {
+  width: 100px;
+  height: 35px;
+  background-color: blue;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  /* navbar */
+  .content {
+    font-size: 17 px;
+  }
+  .tittle {
+    padding-top: 50px;
+    font-weight: bold;
+  }
+  .gambar img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* service */
+  .service-0 {
+    padding-top: 60px;
+  }
+
+  .service-img {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  .service-0,
+  .col-sm-6 {
+    padding-left: 10px;
+  }
+
+  .service-1 p {
+    font-size: 15px;
+  }
+
+  /* why us */
+  .why-0 {
+    padding-top: 50px;
+  }
+  .card {
+    margin-top: 25px;
+  }
+  .tittle-0 {
+    text-align: center;
+  }
+  .tittle-0 h2 {
+    text-align: center;
+    font-size: 200%;
+  }
+  .why-1 {
+    padding-bottom: 15px;
+  }
+
+  .card-body {
+    padding-bottom: 0px;
+  }
+
+  /* testimonial */
+  .item {
+    width: 95%;
+    margin-left: 3%;
+  }
+
+  .card-left {
+    width: 30%;
+    margin: 30px 35%;
+  }
+
+  .card-right {
+    font-size: 16px;
+  }
+
+  .card-right i {
+    color: gold;
+    text-align: center;
+  }
+
+  .faq-icon {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .Testimonial-tittle {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .owl-carousel .card-body {
+    display: block;
+  }
+
+  /* Text Biru */
+  .text-content {
+    margin-top: 50px;
+    padding: 64px 0 64px 0;
+  }
+
+  .text-content h3 {
+    font-size: 24px;
+    padding: 0 50px;
+  }
+
+  .text-content p {
+    font-size: 14px;
+    padding: 16px 65px 20px 65px;
+  }
+
+  /* footer */
+  .footer {
+    margin-top: 30px;
+  }
+  .footer-0 {
+    font-size: 15px;
+  }
+  .footer-1 {
+    font-size: 15px;
+  }
+}
